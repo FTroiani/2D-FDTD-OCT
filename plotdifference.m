@@ -1,14 +1,14 @@
 function plotdifference(file,out)
 load(file);
 n = 1.3272;
-I_0 = 6e12;
+I_0 = 1e12;
 dx = 8.5e-9;
 Sc = 1./sqrt(2);
 dt = 1/sqrt(2)*dx/3e8*n*10;
 % i_inactive = i_inactive(1:6000);
 % i_active = i_active(1:6000); 
-i_inactive = sum(inactive_signal)/100;
-i_active = sum(active_signal)/100;
+i_inactive = sum(inactive_signal);
+i_active = sum(active_signal);
 % i_active = sum(elec_act.^2);
 % i_inactive = sum(elec_inact.^2);
 fig1=figure('position',[100 100 1200 600],'Color','white');

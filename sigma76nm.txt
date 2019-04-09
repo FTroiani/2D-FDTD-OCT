@@ -1,0 +1,23 @@
+Sample (s) or reference (r) arm? r
+You have chosen to simulate the reference arm.
+Grid is 12000 by 2000 cell.
+Enter indices for first point in TF region: 5000 1 (I made the pulse start this far into the simulation so that in the cell I was observing the reflected field there was only the reflected field)
+Enter indices for last point in TF region: 11999 1999
+Enter width of beam in y direction: 100
+Enter the points per wavelength for source: 100
+Enter the number of photons: 1e12
+Enter pulse width: 500 (the pulse width is first given in number of cells and transformed in wavelength in Matlab afterwards)
+Do you want 2D snapshots? (1=yes, 0=no) 0
+Duration of simulation is 60000 steps.
+Enter start time and temporal stride: 0 10
+Start time = 0, Temporal stride = 10
+In x direction grid has 12000 total nodes (ranging from 0 to 11999).
+Enter first node, last node, and spatial stride: 0 11999 10
+In the x direction:
+First node = 0, Last node = 11999, Spatial stride = 10
+In y direction grid has 2000 total nodes (ranging from 0 to 1999).
+Enter first node, last node, and spatial stride: 0 1999 10
+In y direction:
+First node = 0, Last node = 1999, Spatial stride = 10
+Enter the output filename: test
+Enter the cell in which you want to observe the field: 1000
